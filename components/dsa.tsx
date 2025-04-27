@@ -23,7 +23,7 @@ const DSA = () => {
             DSA Grinding
             <Badge className="ml-2 bg-green-600 text-white">LIVE</Badge>
           </h2>
-          <div className="flex gap-6 mt-3 text-gray-200">
+          <div className="flex flex-wrap gap-6 mt-3 text-gray-200">
             <div>
               <span className="text-xl font-bold text-green-400">{stats.submissions}</span>
               <span className="block text-xs uppercase tracking-widest text-gray-400">Submissions</span>

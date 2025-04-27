@@ -59,7 +59,10 @@ export default function Projects() {
       <h2 className="text-3xl font-bold text-center text-green-500 mb-8">My Works</h2>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
       {projects.map((project) => (
-        <div key={project.id} className="group relative overflow-hidden rounded-lg border border-blue-900">
+        <div
+          key={project.id}
+          className="group relative overflow-hidden rounded-lg border border-blue-900 flex flex-col h-full"
+        >
           {/* Image */}
           <Image
             src={project.image || "/placeholder.svg"}
@@ -70,7 +73,7 @@ export default function Projects() {
           />
 
           {/* Text and Links */}
-          <div className="p-4 bg-gradient-to-t from-black via-black/80 to-transparent">
+          <div className="p-4 bg-gradient-to-t from-black via-black/80 to-transparent flex flex-col flex-grow">
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
             <p className="text-sm text-gray-300 mb-3">{project.subtitle}</p>
             <div className="flex gap-4 mb-3">
@@ -85,7 +88,7 @@ export default function Projects() {
                 </Link>
               )}
             </div>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mt-auto">
               {project.tags?.map((tag, index) => (
                 <span
                   key={index}
@@ -102,13 +105,14 @@ export default function Projects() {
           </div>
         </div>
       ))}
-      <div className="col-span-2 md:col-span-3 lg:col-span-3 bg-gradient-to-r from-green-400 to-blue-500 text-white p-6 rounded-lg shadow-md text-center">
+    </div>
+    <div className="col-span-2 md:col-span-3 lg:col-span-3 bg-gradient-to-r from-green-400 to-blue-500 text-white p-6 rounded-lg shadow-md text-center">
       <h3 className="text-2xl font-bold">I have worked on 5+ Hackathon Projects</h3>
       <p className="text-lg mt-2">
         These projects span across various domains, including Web3, AI/ML, AI Agents, and more. They showcase my skills in problem-solving, teamwork, and innovation.
       </p>
       </div>
     </div>
-    </div>
+    
   )
 }
