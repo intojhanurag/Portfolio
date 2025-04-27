@@ -61,19 +61,21 @@ export default function Projects() {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="group relative overflow-hidden rounded-lg border border-blue-900 flex flex-col h-full"
+          className="group relative overflow-hidden rounded-lg border border-blue-900 flex flex-col"
         >
           {/* Image */}
-          <Image
-            src={project.image || "/placeholder.svg"}
-            alt={project.title}
-            width={400}
-            height={300}
-            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-          />
+          <div className="w-full h-48">
+            <Image
+              src={project.image || "/placeholder.svg"}
+              alt={project.title}
+              width={400}
+              height={300}
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+            />
+          </div>
 
           {/* Text and Links */}
-          <div className="p-4 bg-gradient-to-t from-black via-black/80 to-transparent flex flex-col flex-grow">
+          <div className="p-4 bg-black flex flex-col">
             <h3 className="text-lg font-semibold text-white">{project.title}</h3>
             <p className="text-sm text-gray-300 mb-3">{project.subtitle}</p>
             <div className="flex gap-4 mb-3">
@@ -106,6 +108,7 @@ export default function Projects() {
         </div>
       ))}
     </div>
+    <br />
     <div className="col-span-2 md:col-span-3 lg:col-span-3 bg-gradient-to-r from-green-400 to-blue-500 text-white p-6 rounded-lg shadow-md text-center">
       <h3 className="text-2xl font-bold">I have worked on 5+ Hackathon Projects</h3>
       <p className="text-lg mt-2">
