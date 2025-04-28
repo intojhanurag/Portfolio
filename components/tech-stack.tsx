@@ -64,7 +64,7 @@ export default function TechStack() {
               <span className="text-green-400">•</span> Data Structure & Algorithm
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-green-400">•</span> Oops
+              <span className="text-green-400">•</span> OOPS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> Operating System

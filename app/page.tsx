@@ -118,9 +118,9 @@ export default function Home() {
             <p className="text-gray-300">
               I am a passionate Full Stack Engineer with a strong focus on{"  "} 
               <RoughNotation type="highlight" show={true} color="#c7d2fe" >
-                <span className="text-black"> backend developement</span>
+                <span className="text-black"> backend development</span>
              </RoughNotation>{" "}, scalable systems, and
-              real-time solutions. My journey began in coding with compititive programming in 1st year and i am a effcient problem
+              real-time solutions. My journey began in coding with competitive programming in 1st year and i am a efficient problem
               solver as well as i am a full stack developer
             </p>
             
