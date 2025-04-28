@@ -1,4 +1,4 @@
-import { Code, Server, Cpu, Lightbulb } from "lucide-react"
+import { Code, Server, Cpu, Lightbulb } from "lucide-react";
 
 export default function TechStack() {
   return (
@@ -7,12 +7,12 @@ export default function TechStack() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Frontend */}
-        <div className="space-y-4">
+        <div className="space-y-4 shadow-lg rounded-lg p-6" style={{ backgroundColor: "#072b4b" }}>
           <div className="flex items-center gap-2">
             <Code className="text-green-400" size={24} />
             <h3 className="text-xl font-semibold text-green-400">Frontend</h3>
           </div>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-gray-200">
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> React.js
             </li>
@@ -29,12 +29,12 @@ export default function TechStack() {
         </div>
 
         {/* Backend */}
-        <div className="space-y-4">
+        <div className="space-y-4 shadow-lg rounded-lg p-6" style={{ backgroundColor: "#072b4b" }}>
           <div className="flex items-center gap-2">
             <Server className="text-green-400" size={24} />
             <h3 className="text-xl font-semibold text-green-400">Backend</h3>
           </div>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-gray-200">
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> Node.js
             </li>
@@ -53,13 +53,13 @@ export default function TechStack() {
           </ul>
         </div>
 
-        {/* DevOps */}
-        <div className="space-y-4">
+        {/* Core Subjects */}
+        <div className="space-y-4 shadow-lg rounded-lg p-6" style={{ backgroundColor: "#072b4b" }}>
           <div className="flex items-center gap-2">
             <Cpu className="text-green-400" size={24} />
             <h3 className="text-xl font-semibold text-green-400">Core Subjects</h3>
           </div>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-gray-200">
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> Data Structure & Algorithm
             </li>
@@ -69,25 +69,24 @@ export default function TechStack() {
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> Operating System
             </li>
-            
           </ul>
         </div>
 
         {/* Other Skills */}
-        <div className="space-y-4">
+        <div className="space-y-4 shadow-lg rounded-lg p-6" style={{ backgroundColor: "#072b4b" }}>
           <div className="flex items-center gap-2">
             <Lightbulb className="text-green-400" size={24} />
             <h3 className="text-xl font-semibold text-green-400">Languages I know</h3>
           </div>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-gray-200">
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> C++ (Proficient)
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-green-400">•</span> JavaScript(Proficient)
+              <span className="text-green-400">•</span> JavaScript (Proficient)
             </li>
             <li className="flex items-center gap-2">
-              <span className="text-green-400">•</span> Python(Basics)
+              <span className="text-green-400">•</span> Python (Basics)
             </li>
             <li className="flex items-center gap-2">
               <span className="text-green-400">•</span> Testing (Unit & Integration)
@@ -96,5 +95,5 @@ export default function TechStack() {
         </div>
       </div>
     </section>
-  )
+  );
 }
