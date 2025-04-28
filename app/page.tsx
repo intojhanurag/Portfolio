@@ -27,7 +27,7 @@ export default function Home() {
           </Link>
           
           <Link href="#portfolio" className="hover:text-green-400 p-1 transition-colors border-2 rounded-sm border-green-400">
-            Portfolio
+            Projects
           </Link>
           <Link href="#contact" className="hover:text-green-400 p-1 transition-colors border-2 rounded-sm border-green-400">
             Contact
