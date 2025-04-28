@@ -110,7 +110,7 @@ export default function Projects() {
     </div>
     <br />
     <div className="col-span-2 md:col-span-3 lg:col-span-3 bg-gradient-to-r from-green-400 to-blue-500 text-white p-6 rounded-lg shadow-md text-center">
-      <h3 className="text-2xl font-bold">I have worked on 5+ Hackathon Projects</h3>
+      <h3 className="text-2xl font-bold">I have worked on over 5 Hackathon Projects</h3>
       <p className="text-lg mt-2">
         These projects span across various domains, including Web3, AI/ML, AI Agents, and more. They showcase my skills in problem-solving, teamwork, and innovation.
       </p>

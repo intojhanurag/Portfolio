@@ -76,7 +76,7 @@ export default function TechStack() {
         <div className="space-y-4 shadow-lg rounded-lg p-6" style={{ backgroundColor: "#072b4b" }}>
           <div className="flex items-center gap-2">
             <Lightbulb className="text-green-400" size={24} />
-            <h3 className="text-xl font-semibold text-green-400">Languages I know</h3>
+            <h3 className="text-xl font-semibold text-green-400">Programming Languages I know</h3>
           </div>
           <ul className="space-y-2 text-gray-200">
             <li className="flex items-center gap-2">
