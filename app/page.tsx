@@ -11,6 +11,11 @@ import Certification from "@/components/certication"
 import Projects from "@/components/projects"
 
 export default function Home() {
+  const pageVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
+  };
+
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Navigation */}
@@ -76,8 +81,8 @@ export default function Home() {
             I'm a 2nd year engineering student, currently building full stack application.
           </p>
           <p className="text-gray-300">
-            In my free time, you can catch me shooting in Films, writing stories, or exploring beautiful beaches and
-            forests.
+            In my free time, you can often find me solving competitive programming problems.
+            I enjoy challenging myself with different algorithms and improving my problem-solving skills.
           </p>
           <div className="flex gap-4 pt-4">
             <Link
