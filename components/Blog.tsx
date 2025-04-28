@@ -13,6 +13,14 @@ const Blog = () => {
       readTime: "5 min read",
       link:"https://medium.com/@aojharaj2004/how-i-debugged-my-code-and-learned-about-red-black-trees-and-hash-collisions-7be057a58a4d"
     },
+    {
+      title: "CSR vs SSR vs SSG",
+      date: "28April, 2025",
+      excerpt: "Understand Nextjs core concept in easy way like a friend",
+      readTime: "5 min read",
+      link:"https://medium.com/@aojharaj2004/csr-vs-ssr-vs-ssg-understand-like-a-friend-not-a-professor-d92bda579730"
+    },
+    
     
   ];
 
