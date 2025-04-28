@@ -22,7 +22,7 @@ export default function Workflow() {
   return (
     <div className="w-full border border-blue-900 bg-black text-white p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">Workflow</h1>
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-green-400 ">Workflow</h1>
 
         <p className="text-lg mb-12 max-w-3xl text-white">
           I adhere to the Agile methodology for software development. It includes analyzing and planning requirements,

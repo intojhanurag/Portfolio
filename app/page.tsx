@@ -1,4 +1,5 @@
 import Image from "next/image"
+import {RoughNotation} from "react-rough-notation"
 import Link from "next/link"
 import { Github, Linkedin, Instagram,Twitter, MapPin, Mail, User, Briefcase, GraduationCap, Heart } from "lucide-react"
 import ContactForm from "@/components/contact-form"
@@ -78,10 +79,17 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-gray-300">
-            I'm a 2nd year engineering student, currently building full stack application.
+            I'm a 2nd year engineering student, currently building{"  "} 
+             <RoughNotation type="box" show={true} color="#d9f99d" >
+               Full Stack Application
+             </RoughNotation>.
           </p>
           <p className="text-gray-300">
-            In my free time, you can often find me solving competitive programming problems.
+            In my free time, you can often find me solving {" "} 
+            <RoughNotation type="underline" show={true} color="#d9f99d" >
+               Competitive Programming
+             </RoughNotation> {" "}
+            problems.
             I enjoy challenging myself with different algorithms and improving my problem-solving skills.
           </p>
           <div className="flex gap-4 pt-4">
@@ -108,7 +116,10 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-2/3 space-y-4">
             <p className="text-gray-300">
-              I am a passionate Full Stack Engineer with a strong focus on backend development, scalable systems, and
+              I am a passionate Full Stack Engineer with a strong focus on{"  "} 
+              <RoughNotation type="highlight" show={true} color="#c7d2fe" >
+                <span className="text-black"> backend developement</span>
+             </RoughNotation>{" "}, scalable systems, and
               real-time solutions. My journey began in coding with compititive programming in 1st year and i am a effcient problem
               solver as well as i am a full stack developer
             </p>
@@ -178,8 +189,11 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-gray-300 mb-6">
-              Have a project for me? Any questions about something I've built? I'd love to hear from you. Drop me a
-              message or use the contact form below!
+              Have a project for me? Any questions about something I've built? I'd love to hear from you.{" "}
+              <RoughNotation type="highlight" show={true} color="#f472b6" >
+                <span className="text-black">Drop me a message</span>
+             </RoughNotation>{" "}
+              or use the contact form below!
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-2">

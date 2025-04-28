@@ -3,7 +3,7 @@ import { Code, Server, Cpu, Lightbulb } from "lucide-react";
 export default function TechStack() {
   return (
     <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto border border-blue-900 bg-black">
-      <h2 className="text-3xl font-bold text-green-400 text-center mb-12">Core Tech Stack</h2>
+      <h2 className="text-3xl font-bold text-green-400 text-center mb-12">Core <span className="text-white">Tech</span> Stack</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Frontend */}
