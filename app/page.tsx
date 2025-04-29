@@ -120,8 +120,12 @@ export default function Home() {
               <RoughNotation type="highlight" show={true} color="#c7d2fe" >
                 <span className="text-black"> backend development</span>
              </RoughNotation>{" "}, scalable systems, and
-              real-time solutions. My journey began with competitive programming in my first year and i am an efficient problem
-              solver and a full stack developer
+              real-time solutions. My journey began with competitive programming in my first year and i am an efficient {"  "}
+              <RoughNotation type="highlight" show={true} color="#d9f99d" >
+                <span className="text-black">problem solver</span>
+             </RoughNotation> {" "}
+              
+              and a full stack developer
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-6">
