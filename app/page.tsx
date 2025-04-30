@@ -86,8 +86,8 @@ export default function Home() {
           </p>
           <p className="text-gray-300">
             In my free time, you can often find me solving {" "} 
-            <RoughNotation type="underline" show={true} color="#d9f99d" >
-               Competitive Programming
+            <RoughNotation type="highlight" show={true} color="#c7d2fe" >
+               <span className="text-black">Competitive Programming</span>
              </RoughNotation> {" "}
             problems.
             I enjoy challenging myself with different algorithms and improving my problem-solving skills.
