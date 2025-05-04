@@ -6,19 +6,39 @@ import ContactForm from "@/components/contact-form"
 import TechStack from "@/components/tech-stack"
 import Timeline from "@/components/timeline"
 import Workflow from "@/components/workflow"
+import dynamic from "next/dynamic"
+
+import MotionWrapper from "@/components/MotionWrapper"
 import Blog from "@/components/Blog"
 import DSA from "@/components/dsa"
 import Certification from "@/components/certication"
 import Projects from "@/components/projects"
 
+
+
 export default function Home() {
   const pageVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: "easeOut" } },
+    hidden: {
+      opacity: 0,
+      filter: "blur(10px)",
+    },
+    visible: {
+      opacity: 1,
+      filter: "blur(0px)",
+      transition: {
+        duration: 2,
+        ease: "easeOut",
+      },
+    },
   };
-
+  
   return (
-    <main className="min-h-screen bg-black text-white">
+    <MotionWrapper
+      initial="hidden"
+      animate="visible"
+      variants={pageVariants}
+      className="min-h-screen bg-black text-white"
+    >
       {/* Navigation */}
       <nav className="flex justify-end p-4">
         <div className="space-x-6">
@@ -226,6 +246,6 @@ export default function Home() {
       <footer className="py-8 px-4 text-center text-gray-400 border-t border-gray-800">
         <p>© {new Date().getFullYear()} Anurag Ojha. All rights reserved.</p>
       </footer>
-    </main>
+    </MotionWrapper>
   )
 }
