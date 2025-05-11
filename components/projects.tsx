@@ -7,6 +7,16 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Yt-Learn",
+      subtitle: "Your Playlist companion",
+      image: "/yt-learn.png",
+      link1: "https://github.com/intojhanurag/Yt-Learn",
+      link2:"https://yt-learn.vercel.app/",
+      tags:["Next.js","typescript","Clerk","Shadcn UI"]
+    },
+
+    {
+      id: 2,
       title: "ThinkFlow",
       subtitle: "Your digital mind reimagined",
       image: "/project1.png",
@@ -15,7 +25,7 @@ export default function Projects() {
       tags:["React","typescript","Nodejs","MongoDb"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Calore",
       subtitle: "Diet Planning using AI",
       image: "/project2.png",
@@ -24,7 +34,7 @@ export default function Projects() {
       tags:["React", "Gemini", "CSS","javascript"]
     },
     {
-      id: 3,
+      id: 4,
       title: "JS Game",
       subtitle: "Runner game using js canvas",
       image: "/project3.png",
@@ -33,7 +43,7 @@ export default function Projects() {
       tags:["javascript","html","css","canvas"]
     },
     {
-      id: 4,
+      id: 5,
       title: "Ui Ux",
       subtitle: "Created a ui ux design for a hackathon project",
       image: "/project5.avif",
@@ -42,7 +52,7 @@ export default function Projects() {
       tags:["figma"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Deep Learning For Computer Vision -Sign detection",
       subtitle: "Created a sign recognition using screenpipe",
       image: "/project4.jpg",
@@ -57,7 +67,7 @@ export default function Projects() {
   return (
     <div>
       <h2 className="text-3xl font-bold text-center text-green-500 mb-8">My Works</h2>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
       {projects.map((project) => (
         <div
           key={project.id}
