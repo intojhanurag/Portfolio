@@ -191,7 +191,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="contact" className="pb-5 px-4 md:px-8 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-green-400 mb-8">Get in touch</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
