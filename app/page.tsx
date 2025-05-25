@@ -47,7 +47,7 @@ export default function Home() {
             alt="Profile Image"
             width={350}
             height={350}
-            className="rounded-lg w-full h-auto object-cover"
+            className="rounded-full w-full h-auto object-cover"
           />
         </div>
         <div className="w-full md:w-1/2 space-y-4">
