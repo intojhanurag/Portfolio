@@ -196,11 +196,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-gray-300 mb-6">
-              Have a project for me? Any questions about something I've built? I'd love to hear from you.{" "}
-              <RoughNotation type="highlight" show={true} color="#f472b6" >
-                <span className="text-black">Drop me a message</span>
-             </RoughNotation>{" "}
-              or use the contact form below!
+              Have a project for me? Any questions about something I've built? I'd love to hear from you. Drop me a message or use the contact form below!
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-2">
