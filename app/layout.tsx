@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import Script from "next/script";
 
 import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
@@ -24,6 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          defer
+          data-website-id="68559d4c748b8b0ceae0bee2"
+          data-domain="anuragworks.xyz"
+          src="https://datafa.st/js/script.js">
+        </script>
         <meta name="darkreader" content="NO-DARKREADER" />
         <link rel="icon" href="/logo.jpg" />
       </head>
