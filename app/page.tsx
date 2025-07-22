@@ -97,7 +97,7 @@ export default function Home() {
           </p>
           <div className="flex gap-4 pt-4">
             <Link
-              href="https://drive.google.com/file/d/1s1l7_Lxv8BVSvjtrw7bbQSUaA2AglFcz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OZmeJtwhTx7EgYg1TCy97gyNLMDVPjLg/view?usp=sharing"
               className="bg-green-500 hover:bg-green-600 text-black font-medium px-6 py-2 rounded-full transition-colors"
             >
               Resume
